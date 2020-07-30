@@ -38,8 +38,10 @@ public class Task1_5 {
         */
   
             for (int w = 1; w < 10; w++){
+                System.out.print(w+"||");
               for (int h = 1; h < 10; h++){
-                System.out.print("|"+w * h + "|");
+                
+                System.out.print(w * h + "|");
               }
               System.out.println("");
             }
